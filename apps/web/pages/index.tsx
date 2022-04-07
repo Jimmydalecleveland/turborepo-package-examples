@@ -1,6 +1,6 @@
 import { Button } from "ui";
 import { Button as MicrobundleButton } from "microbundle-ui";
-import { defaultTheme, Button as EsbuildButton } from "esbuild-ui";
+import { defaultTheme, Button as EsbuildButton } from "@jimmydc/esbuild-ui";
 import { darkTheme, exampleStyle } from "../styles/theme.css";
 
 export default function Web() {

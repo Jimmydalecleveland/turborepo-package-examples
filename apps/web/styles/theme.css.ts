@@ -1,5 +1,5 @@
 import { createTheme, style } from "@vanilla-extract/css";
-import { vars } from "esbuild-ui";
+import { vars } from "@jimmydc/esbuild-ui";
 
 // export const [defaultTheme, vars] = createTheme({
 //   color: {

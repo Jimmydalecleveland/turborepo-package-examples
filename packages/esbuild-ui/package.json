@@ -1,7 +1,7 @@
 {
-  "name": "esbuild-ui",
+  "name": "@jimmydc/esbuild-ui",
   "version": "0.1.0",
-  "description": "An example of using ESBuild for a React UI",
+  "description": "An example of using ESBuild for a React UI with Vanilla Extract",
   "main": "./dist/index.js",
   "files": [
     "dist",
