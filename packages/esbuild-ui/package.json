@@ -9,8 +9,8 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "node esbuild.js",
     "compile": "tsc",
+    "build": "node esbuild.js && npm run compile",
     "dev": "node esbuild.js",
     "test": "jest",
     "test:watch": "jest --watch"

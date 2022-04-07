@@ -4,6 +4,7 @@ require("esbuild")
 		outbase: "./src",
 		outdir: "dist",
 		bundle: true,
+		sourcemap: true,
 		treeShaking: true,
 		format: "esm",
 		target: "esnext",
