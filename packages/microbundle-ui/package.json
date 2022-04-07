@@ -17,9 +17,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "microbundle --jsx React.createElement  --jsxFragment React.Fragment",
-    "dev": "microbundle watch --compress=false --jsx React.createElement  --jsxFragment React.Fragment",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "dev": "microbundle watch --compress=false --jsx React.createElement  --jsxFragment React.Fragment"
   },
   "author": "",
   "license": "ISC",

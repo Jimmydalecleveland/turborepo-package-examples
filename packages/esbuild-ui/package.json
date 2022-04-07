@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "^2.0.0",
+    "@types/jest": "^27.4.1",
     "@types/react": "^17.0.43",
     "@vanilla-extract/esbuild-plugin": "^2.0.3",
     "jest": "^27.5.1",
