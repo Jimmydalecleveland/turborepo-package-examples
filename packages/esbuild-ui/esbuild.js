@@ -5,9 +5,6 @@ build({
 	entryPoints: ["src/index.ts"],
 	outbase: "./src",
 	outdir: "dist",
-	outExtension: {
-		'.js': '.mjs'
-	},
 	bundle: true,
 	sourcemap: true,
 	treeShaking: true,
