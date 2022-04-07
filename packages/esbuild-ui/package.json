@@ -10,6 +10,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "node esbuild.js",
+    "compile": "tsc",
     "dev": "node esbuild.js",
     "test": "jest",
     "test:watch": "jest --watch"

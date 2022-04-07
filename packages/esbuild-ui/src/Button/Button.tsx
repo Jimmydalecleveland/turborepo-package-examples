@@ -1,7 +1,7 @@
 import * as React from "react";
 
 type Props = {
-  type: "button" | "submit" | "reset";
+  type?: "button" | "submit" | "reset";
 };
 
 const Button: React.FC<Props> = ({ children, type = "button" }) => {
