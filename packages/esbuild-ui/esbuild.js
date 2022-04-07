@@ -1,3 +1,5 @@
+const { vanillaExtractPlugin } = require("@vanilla-extract/esbuild-plugin");
+
 require("esbuild")
 	.build({
 		entryPoints: ["src/index.ts"],
@@ -9,6 +11,7 @@ require("esbuild")
 		format: "esm",
 		target: "esnext",
 		platform: "neutral",
+		plugins: [vanillaExtractPlugin()],
 	})
 	.then(() => console.log("💡 Build Complete!"))
 	.catch(() => process.exit(1));
