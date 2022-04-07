@@ -1,0 +1,30 @@
+{
+  "name": "esbuild-ui",
+  "version": "0.1.0",
+  "description": "An example of using ESBuild for a React UI",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "node esbuild.js",
+    "dev": "",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.32"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

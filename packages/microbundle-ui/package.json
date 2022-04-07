@@ -14,7 +14,7 @@
     "dist",
     "src"
   ],
-  "sideEffects": "false",
+  "sideEffects": false,
   "scripts": {
     "build": "microbundle --jsx React.createElement  --jsxFragment React.Fragment",
     "dev": "microbundle watch --compress=false --jsx React.createElement  --jsxFragment React.Fragment",
