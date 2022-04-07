@@ -1,14 +1,17 @@
 import { Button } from "ui";
 import { Button as MicrobundleButton } from "microbundle-ui";
-import { Button as EsbuildButton } from "esbuild-ui";
+import { defaultTheme, Button as EsbuildButton } from "esbuild-ui";
+import { darkTheme, exampleStyle } from "../styles/theme.css";
 
 export default function Web() {
   return (
-    <div>
-      <h1>Web</h1>
+    <div className={defaultTheme}>
+      <h1 className={exampleStyle}>Web</h1>
       <Button />
-      <MicrobundleButton>Microbundle Button!</MicrobundleButton>
-      <EsbuildButton>ESBuild Button!</EsbuildButton>
+      <MicrobundleButton>Microbundle</MicrobundleButton>
+      <div className={darkTheme}>
+        <EsbuildButton>ESBuild + Vanilla Extract</EsbuildButton>
+      </div>
     </div>
   );
 }

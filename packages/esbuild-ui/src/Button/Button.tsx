@@ -12,14 +12,12 @@ const Button: React.FC<Props> = ({
   background = "primary",
 }) => {
   return (
-    <div className={styles.defaultTheme}>
-      <button
-        type={type}
-        className={`${styles.pWrapper} ${styles.variant[background]}`}
-      >
-        {children}
-      </button>
-    </div>
+    <button
+      type={type}
+      className={`${styles.pWrapper} ${styles.variant[background]}`}
+    >
+      {children}
+    </button>
   );
 };
 
