@@ -1,5 +1,11 @@
 # @jimmydc/microbundle-ui
 
+## 0.4.1
+
+### Patch Changes
+
+- Testing a patch bump with no actual changes
+
 ## 0.4.0
 
 ### Minor Changes
