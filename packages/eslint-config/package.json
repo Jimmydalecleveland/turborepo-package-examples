@@ -1,6 +1,6 @@
 {
-  "name": "config",
-  "version": "0.0.0",
+  "name": "@jimmydc/eslint-config",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "files": [
@@ -10,5 +10,8 @@
     "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "7.28.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

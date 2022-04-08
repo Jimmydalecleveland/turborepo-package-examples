@@ -1,11 +1,13 @@
 {
-  "name": "tsconfig",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@jimmydc/tsconfig",
+  "version": "0.1.0",
   "main": "index.js",
   "files": [
     "base.json",
     "nextjs.json",
     "react-library.json"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
