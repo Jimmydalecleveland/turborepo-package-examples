@@ -1,5 +1,11 @@
 # @jimmydc/esbuild-ui
 
+## 0.6.2
+
+### Patch Changes
+
+- 51ced2c: Testing another patch version bump with only a Readme addition
+
 ## 0.6.1
 
 ### Patch Changes
