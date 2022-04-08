@@ -26,9 +26,16 @@
     "esbuild": "^0.14.32"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "@sindresorhus/tsconfig": "^2.0.0",
+    "@testing-library/react": "^12.1.4",
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.43",
+    "@vanilla-extract/babel-plugin": "^1.1.5",
     "@vanilla-extract/esbuild-plugin": "^2.0.3",
     "jest": "^27.5.1",
     "react": "^17.0.2",
