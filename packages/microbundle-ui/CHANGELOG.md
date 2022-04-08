@@ -1,5 +1,11 @@
 # @jimmydc/microbundle-ui
 
+## 0.5.0
+
+### Minor Changes
+
+- 86fc5ae: Add outline prop to Button. This allows for enabling a border around the button. The default is `false`
+
 ## 0.4.1
 
 ### Patch Changes
