@@ -22,10 +22,10 @@
   "devDependencies": {
     "@types/node": "^17.0.12",
     "@types/react": "17.0.37",
-    "config": "*",
+    "@jimmydc/eslint-config": "*",
     "eslint": "7.32.0",
     "next-transpile-modules": "9.0.0",
-    "tsconfig": "*",
+    "@jimmydc/tsconfig": "*",
     "typescript": "^4.5.3"
   }
 }
