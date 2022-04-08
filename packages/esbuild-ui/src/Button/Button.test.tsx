@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Button } from ".";
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
 
 test("Button renders", () => {
   const { container } = render(<Button>Click Me!</Button>);
