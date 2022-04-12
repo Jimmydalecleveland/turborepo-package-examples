@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-const Button = ({ children, type = "button", outline = false }) => {
+const Button = ({ children, type = "button" }) => {
   return (
     <button type={type}>
       {children}
