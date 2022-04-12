@@ -1,15 +1,45 @@
-import {
-  createTheme,
-  style,
-  styleVariants,
-  globalStyle,
-} from "@vanilla-extract/css";
+import { createTheme, globalStyle } from "@vanilla-extract/css";
 
 export const [defaultTheme, vars] = createTheme({
   color: {
-    primary: "coral",
-    secondary: "cornflowerblue",
-    background: "peachpuff",
+    primary: {
+      "050": "#efe5fd",
+      "100": "#d4bff9",
+      "200": "#b794f6",
+      "300": "#9965f4",
+      "400": "#7e3ff2",
+      "500": "#6002ee",
+      "600": "#5300e8",
+      "700": "#3d00e0",
+      "800": "#1c00db",
+      "900": "#0000d6",
+    },
+    secondary: {
+      "050": "#fdf2e0",
+      "100": "#faddb1",
+      "200": "#f7c87f",
+      "300": "#f4b24c",
+      "400": "#f2a127",
+      "500": "#f09204",
+      "600": "#ec8603",
+      "700": "#e67701",
+      "800": "#e06801",
+      "900": "#d64e00",
+    },
+    gray: {
+      "050": "#ECEFF1",
+      "100": "#CFD8DC",
+      "200": "#B0BEC5",
+      "300": "#90A4AE",
+      "400": "#78909C",
+      "500": "#607D8B",
+      "600": "#546E7A",
+      "700": "#455A64",
+      "800": "#37474F",
+      "900": "#263238",
+    },
+    white: "#ffffff",
+    black: "#000000",
   },
   fontSize: {
     small: "12px",
@@ -19,21 +49,5 @@ export const [defaultTheme, vars] = createTheme({
 
 globalStyle("html, body", {
   margin: 0,
-  background: vars.color.background,
-});
-
-export const variant = styleVariants({
-  primary: { background: vars.color.primary },
-  secondary: { background: vars.color.secondary },
-});
-
-export const pWrapper = style({
-  vars: {
-    "--paragraph-green": "green",
-  },
-  display: "flex",
-  fontSize: vars.fontSize.large,
-  ":hover": {
-    backgroundColor: "var(--paragraph-green)",
-  },
+  background: vars.color.gray["050"],
 });
