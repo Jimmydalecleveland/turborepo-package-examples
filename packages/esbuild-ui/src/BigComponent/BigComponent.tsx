@@ -10,6 +10,7 @@ const obj = {
 };
 
 function BigComponent() {
+  console.log("BigComponent was called");
   const value = get(obj, "a.b.c") || "no value";
   return <p>{value}</p>;
 }
