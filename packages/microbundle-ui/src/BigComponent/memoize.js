@@ -41,7 +41,7 @@ console.log("memoize file");
  * // Replace `memoize.Cache`.
  * memoize.Cache = WeakMap
  */
-function memoize(func: Function, resolver?: Function) {
+function memoize(func, resolver) {
   console.log("inside memoize func");
   if (
     typeof func !== "function" ||
@@ -49,7 +49,7 @@ function memoize(func: Function, resolver?: Function) {
   ) {
     throw new TypeError("Expected a function");
   }
-  const memoized = function (this: any, ...args: any[]) {
+  const memoized = function (...args) {
     const key = resolver ? resolver.apply(this, args) : args[0];
     const cache = memoized.cache;
 
@@ -61,6 +61,7 @@ function memoize(func: Function, resolver?: Function) {
     return result;
   };
   memoized.cache = new (memoize.Cache || Map)();
+  console.log("all code in memoized function ran")
   return memoized;
 }
 
