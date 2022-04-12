@@ -1,3 +1,4 @@
+console.log("memoize file");
 /**
  * Creates a function that memoizes the result of `func`. If `resolver` is
  * provided, it determines the cache key for storing the result based on the
@@ -41,6 +42,7 @@
  * memoize.Cache = WeakMap
  */
 function memoize(func: Function, resolver: Function) {
+  console.log("inside memoize func");
   if (
     typeof func !== "function" ||
     (resolver != null && typeof resolver !== "function")
