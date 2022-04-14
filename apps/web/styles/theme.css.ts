@@ -2,7 +2,9 @@ import { createTheme, style } from "@vanilla-extract/css";
 import { vars } from "@jimmydc/esbuild-ui";
 
 export const brandTheme = createTheme(vars, {
+  ...vars,
   color: {
+    ...vars.color,
     primary: {
       "050": "#e2f4fc",
       "100": "#b7e4f7",
@@ -39,22 +41,6 @@ export const brandTheme = createTheme(vars, {
       "800": "#424242",
       "900": "#212121",
     },
-    white: "#ffffff",
-    black: "#000000",
-  },
-  spacing: {
-    gutter: "24px",
-    xxsmall: "4px",
-    xsmall: "8px",
-    small: "12px",
-    medium: "20px",
-    large: "32px",
-    xlarge: "48px",
-    xxlarge: "96px",
-  },
-  fontSize: {
-    small: "12px",
-    large: "40px",
   },
 });
 
