@@ -14,7 +14,7 @@ const Button: React.FC<Props> = ({
   return (
     <button
       type={type}
-      className={`${styles.Button} ${styles.variant[background]}`}
+      className={[styles.Button, styles.variant[background]].join(" ")}
     >
       {children}
     </button>

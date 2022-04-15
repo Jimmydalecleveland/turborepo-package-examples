@@ -5,7 +5,7 @@ type Props = {
   padding?: "xxsmall" | "medium" | "xxlarge";
   background?: "none" | "light" | "dark" | "primary" | "secondary";
   shadow?: "none" | "small" | "medium" | "large";
-  Component?: "div" | "span";
+  Component?: "div" | "section" | "span";
 };
 
 const Box: React.FC<Props> = ({

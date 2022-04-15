@@ -28,11 +28,11 @@ export const box = recipe({
       },
       light: {
         color: vars.color.black,
-        background: vars.color.white,
+        background: vars.color.gray["050"],
       },
       dark: {
         color: vars.color.white,
-        background: vars.color.black,
+        background: vars.color.gray["900"],
       },
     },
     shadow: {

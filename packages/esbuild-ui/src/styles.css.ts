@@ -60,12 +60,14 @@ export const [defaultTheme, vars] = createTheme({
     xxlarge: "96px",
   },
   fontSize: {
-    small: "12px",
-    large: "40px",
+    small: "14px",
+    medium: "16px",
+    large: "18px",
   },
 });
 
 globalStyle("html, body", {
   margin: 0,
   background: vars.color.gray["050"],
+  fontFamily: "sans-serif",
 });
