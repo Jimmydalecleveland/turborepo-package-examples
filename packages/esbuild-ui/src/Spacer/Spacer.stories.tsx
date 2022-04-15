@@ -1,15 +1,15 @@
 import React from "react";
-import { Story, Meta } from "@storybook/react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Spacer, { Props } from ".";
+import Spacer from "./Spacer";
 import { Button } from "../Button";
 
 export default {
   title: "Components/Spacer",
   component: Spacer,
-} as Meta;
+} as ComponentMeta<typeof Spacer>;
 
-const Template: Story<Props> = (args) => (
+const Template: ComponentStory<typeof Spacer> = (args) => (
   <>
     <Button>Don't crowd me!</Button>
     <Spacer {...args} />
