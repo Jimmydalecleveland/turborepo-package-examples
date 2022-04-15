@@ -21,3 +21,9 @@ ChooseComponent.args = {
   Component: "span",
   children: "This Box wrapper is a span",
 };
+
+export const BackgroundColors = Template.bind({});
+BackgroundColors.args = {
+  background: "primary",
+  children: "A Background can be set",
+};
