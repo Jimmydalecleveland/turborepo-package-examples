@@ -1,5 +1,11 @@
 # @jimmydc/esbuild-ui
 
+## 0.9.0
+
+### Minor Changes
+
+- a215159: Add storybook setup for Vanilla Extract and "type": "module" packages, which required some extra Webpack configuration.
+
 ## 0.8.0
 
 ### Minor Changes
