@@ -2,9 +2,9 @@ import * as React from "react";
 import * as styles from "./Text.css";
 
 type Props = {
-  size: "small" | "medium" | "large";
-  weight: "thin" | "regular" | "strong";
-  Component: "span" | "p";
+  size?: "small" | "medium" | "large";
+  weight?: "thin" | "regular" | "strong";
+  Component?: "span" | "p";
 };
 
 const Text: React.FC<Props> = ({

@@ -15,11 +15,17 @@ Minimal.args = {
   children: "Some basic text with no props",
 };
 
-export const Sizes = Template.bind({});
-Sizes.args = {
-  size: "large",
-  children: "Text can be sized based on need",
-};
+// TODO: add stack to space these out when it's implimented
+export const Sizes: React.FC = () => (
+  <section>
+    <Text size="small">Text can be `small`</Text>
+    <br />
+    <Text size="medium">Text can be `medium`</Text>
+    <br />
+    <Text size="large">Text can be `large`</Text>
+    <br />
+  </section>
+);
 
 export const Weight = Template.bind({});
 Weight.args = {
