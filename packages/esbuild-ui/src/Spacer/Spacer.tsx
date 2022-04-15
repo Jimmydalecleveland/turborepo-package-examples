@@ -35,12 +35,5 @@ const Spacer: React.FC<Props> = ({ size, axis }) => {
   const height = getHeight({ axis, size });
   return <span className={styles.spacer({ width, height })} />;
 };
-// const Spacer = styled.span<Props>`
-//   display: block;
-//   width: ${getWidth}px;
-//   min-width: ${getWidth}px;
-//   height: ${getHeight}px;
-//   min-height: ${getHeight}px;
-// `;
 
 export default Spacer;
