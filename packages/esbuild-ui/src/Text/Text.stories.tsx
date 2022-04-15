@@ -2,6 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import Text from "./Text";
+import { Spacer } from "../Spacer";
 
 export default {
   title: "Components/Text",
@@ -15,15 +16,14 @@ Minimal.args = {
   children: "Some basic text with no props",
 };
 
-// TODO: add stack to space these out when it's implimented
-export const Sizes: React.FC = () => (
+export const Sizes = () => (
   <section>
     <Text size="small">Text can be `small`</Text>
-    <br />
+    <Spacer size="small" />
     <Text size="medium">Text can be `medium`</Text>
-    <br />
+    <Spacer size="small" />
     <Text size="large">Text can be `large`</Text>
-    <br />
+    <Spacer size="small" />
   </section>
 );
 
