@@ -41,6 +41,14 @@ export const [defaultTheme, vars] = createTheme({
     white: "#ffffff",
     black: "#000000",
   },
+  shadows: {
+    small:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 2px 2px -2px rgba(28,34,48,0.1),0 4px 4px -4px rgba(28,34,48,0.2)",
+    medium:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 8px 8px -4px rgba(28,34,48,0.1),0 12px 12px -8px rgba(28,34,48,0.2)",
+    large:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 12px 12px -4px rgba(28,34,48,0.1),0 20px 20px -12px rgba(28,34,48,0.2)",
+  },
   spacing: {
     gutter: "24px",
     xxsmall: "4px",
