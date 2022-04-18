@@ -15,7 +15,7 @@ export default function Web() {
         <Button />
         <MicrobundleButton>Microbundle</MicrobundleButton>
 
-        <Box padding="medium">
+        <Box padding="medium" shadow="medium">
           <p>Testing the Box</p>
           <EsbuildButton>ESBuild + Vanilla Extract</EsbuildButton>
         </Box>

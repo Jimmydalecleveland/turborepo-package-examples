@@ -30,7 +30,7 @@ function getWidth({ axis, size }: Props) {
  * @example <caption>Add horizontal space of 24px</caption>
  * <Spacer axis="horizontal" size={24} />
  */
-const Spacer: React.FC<Props> = ({ size, axis }) => {
+const Spacer = ({ size, axis }: Props) => {
   const width = getWidth({ axis, size });
   const height = getHeight({ axis, size });
   return <span className={styles.spacer({ width, height })} />;

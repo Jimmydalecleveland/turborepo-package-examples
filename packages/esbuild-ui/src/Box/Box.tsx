@@ -1,21 +1,22 @@
 import * as React from "react";
 import * as styles from "./Box.css";
 
-type Props = {
+type Props = Readonly<{
   padding?: "xxsmall" | "medium" | "xxlarge";
   background?: "none" | "light" | "dark" | "primary" | "secondary";
   shadow?: "none" | "small" | "medium" | "large";
   Component?: "div" | "section" | "span";
-};
+  children?: React.ReactNode;
+}>;
 
-const Box: React.FC<Props> = ({
+const Box = ({
   children,
   padding = "xxsmall",
   background = "none",
   shadow = "none",
   Component = "div",
   ...rest
-}) => {
+}: Props) => {
   return (
     <Component
       className={styles.box({
