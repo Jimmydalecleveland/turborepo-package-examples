@@ -5,6 +5,7 @@ import {
   Button as EsbuildButton,
   Box,
 } from "@jimmydc/esbuild-ui";
+import { Button as StitchesButton } from "@jimmydc/stitches-ui";
 import { brandTheme, exampleStyle } from "../styles/theme.css";
 
 export default function Web() {
@@ -14,6 +15,7 @@ export default function Web() {
         <h1 className={exampleStyle}>Web</h1>
         <Button />
         <MicrobundleButton>Microbundle</MicrobundleButton>
+        <StitchesButton>ESBuild + Stitches</StitchesButton>
 
         <Box padding="medium" shadow="medium">
           <p>Testing the Box</p>
