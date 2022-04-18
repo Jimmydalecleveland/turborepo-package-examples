@@ -1,9 +1,9 @@
 import * as React from "react";
 import { css } from "@stitches/core";
 
-interface Props {
+type Props = {
   children: React.ReactNode;
-}
+};
 
 const button = css({
   backgroundColor: "palevioletred",
