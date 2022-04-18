@@ -41,13 +41,33 @@ export const [defaultTheme, vars] = createTheme({
     white: "#ffffff",
     black: "#000000",
   },
-  fontSize: {
+  shadows: {
+    small:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 2px 2px -2px rgba(28,34,48,0.1),0 4px 4px -4px rgba(28,34,48,0.2)",
+    medium:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 8px 8px -4px rgba(28,34,48,0.1),0 12px 12px -8px rgba(28,34,48,0.2)",
+    large:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 12px 12px -4px rgba(28,34,48,0.1),0 20px 20px -12px rgba(28,34,48,0.2)",
+  },
+  spacing: {
+    gutter: "24px",
+    xxsmall: "4px",
+    xsmall: "8px",
     small: "12px",
-    large: "40px",
+    medium: "20px",
+    large: "32px",
+    xlarge: "48px",
+    xxlarge: "96px",
+  },
+  fontSize: {
+    small: "14px",
+    medium: "16px",
+    large: "18px",
   },
 });
 
 globalStyle("html, body", {
   margin: 0,
   background: vars.color.gray["050"],
+  fontFamily: "sans-serif",
 });

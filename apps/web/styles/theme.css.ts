@@ -3,6 +3,7 @@ import { vars } from "@jimmydc/esbuild-ui";
 
 export const brandTheme = createTheme(vars, {
   color: {
+    ...vars.color,
     primary: {
       "050": "#e2f4fc",
       "100": "#b7e4f7",
@@ -39,12 +40,29 @@ export const brandTheme = createTheme(vars, {
       "800": "#424242",
       "900": "#212121",
     },
-    white: "#ffffff",
-    black: "#000000",
+  },
+  shadows: {
+    small:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 2px 2px -2px rgba(28,34,48,0.1),0 4px 4px -4px rgba(28,34,48,0.2)",
+    medium:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 8px 8px -4px rgba(28,34,48,0.1),0 12px 12px -8px rgba(28,34,48,0.2)",
+    large:
+      "0 2px 4px 0px rgba(28,34,48,0.1),0 12px 12px -4px rgba(28,34,48,0.1),0 20px 20px -12px rgba(28,34,48,0.2)",
+  },
+  spacing: {
+    gutter: "24px",
+    xxsmall: "4px",
+    xsmall: "8px",
+    small: "12px",
+    medium: "20px",
+    large: "32px",
+    xlarge: "48px",
+    xxlarge: "96px",
   },
   fontSize: {
-    small: "12px",
-    large: "40px",
+    small: "14px",
+    medium: "16px",
+    large: "18px",
   },
 });
 
