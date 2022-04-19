@@ -1,9 +1,10 @@
 import { css } from "../../stitches.config";
 
 export const button = css({
-  borderRadius: "8px",
-  fontSize: "18px",
-  padding: "10px 15px",
+  padding: "$small $medium",
+  borderRadius: "$medium",
+  fontSize: "$large",
+  boxShadow: "$medium",
 
   variants: {
     background: {
