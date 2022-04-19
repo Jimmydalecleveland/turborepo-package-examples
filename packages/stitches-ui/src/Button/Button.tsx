@@ -3,10 +3,10 @@ import { button } from "./Button.styles";
 
 type Props = {
   children: React.ReactNode;
-  background: "primary" | "secondary";
+  background?: "primary" | "secondary";
 };
 
-const Button = ({ children, background }: Props) => (
+const Button = ({ children, background = "primary" }: Props) => (
   <button className={button({ background })}>{children}</button>
 );
 

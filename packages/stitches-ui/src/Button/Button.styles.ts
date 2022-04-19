@@ -19,7 +19,7 @@ export const button = css({
         },
       },
       secondary: {
-        background: "$primary300",
+        background: "$secondary300",
         color: "$black",
       },
     },
