@@ -3,8 +3,13 @@ import { Button as MicrobundleButton } from "microbundle-ui";
 import {
   defaultTheme,
   Button as EsbuildButton,
-  Box,
+  Box as EsbuildBox,
 } from "@jimmydc/esbuild-ui";
+import {
+  Button as StitchesButton,
+  Box as StitchesBox,
+  Spacer as StitchesSpacer,
+} from "@jimmydc/stitches-ui";
 import { brandTheme, exampleStyle } from "../styles/theme.css";
 
 export default function Web() {
@@ -15,10 +20,15 @@ export default function Web() {
         <Button />
         <MicrobundleButton>Microbundle</MicrobundleButton>
 
-        <Box padding="medium" shadow="medium">
+        <StitchesBox padding="medium" shadow="medium">
+          <StitchesSpacer size="medium" />
+          <StitchesButton>ESBuild + Stitches</StitchesButton>
+        </StitchesBox>
+
+        <EsbuildBox padding="medium" shadow="medium">
           <p>Testing the Box</p>
           <EsbuildButton>ESBuild + Vanilla Extract</EsbuildButton>
-        </Box>
+        </EsbuildBox>
         <div className={brandTheme}>
           <EsbuildButton>ESBuild + Vanilla Extract</EsbuildButton>
         </div>
