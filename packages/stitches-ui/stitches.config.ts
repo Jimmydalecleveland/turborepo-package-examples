@@ -1,6 +1,6 @@
 import { createStitches } from "@stitches/core";
 
-export const { css } = createStitches({
+export const { css, globalCss } = createStitches({
   theme: {
     colors: {
       primary050: "#efe5fd",
@@ -65,5 +65,13 @@ export const { css } = createStitches({
       large: "12px",
       round: "9999px",
     },
+  },
+});
+
+export const globalStyles = globalCss({
+  "html, body": {
+    margin: 0,
+    backgroundColor: "$gray050",
+    fontFamily: "sans-serif",
   },
 });
