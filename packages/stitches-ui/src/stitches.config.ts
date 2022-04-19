@@ -1,6 +1,6 @@
 import { createStitches } from "@stitches/core";
 
-export const { css, globalCss } = createStitches({
+export const { css, globalCss, config } = createStitches({
   theme: {
     colors: {
       primary050: "#efe5fd",
