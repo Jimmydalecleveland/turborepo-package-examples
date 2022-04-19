@@ -12,6 +12,6 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  // background: "primary",
-  children: "Button",
+  background: "primary",
+  children: "I am a Button",
 };
