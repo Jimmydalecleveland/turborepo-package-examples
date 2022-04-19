@@ -1,4 +1,4 @@
-import { globalStyles } from "../stitches.config"
+import { globalStyles } from "../src/stitches.config"
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

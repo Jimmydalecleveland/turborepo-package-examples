@@ -1,4 +1,4 @@
-import { css } from "../../stitches.config";
+import { css } from "../stitches.config";
 
 export const button = css({
   padding: "$small $medium",
