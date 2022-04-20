@@ -1,6 +1,6 @@
 {
   "name": "@jimmydc/esbuild-ui",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "An example of using ESBuild for a React UI with Vanilla Extract",
   "main": "./dist/index.js",
   "type": "module",

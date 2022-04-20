@@ -1,5 +1,11 @@
 # @jimmydc/stitches-ui
 
+## 0.5.0
+
+### Minor Changes
+
+- 0189ef7: Export Text component and update VE Button to Stitches styling and properties
+
 ## 0.4.0
 
 ### Minor Changes
