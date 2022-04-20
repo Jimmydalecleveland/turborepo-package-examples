@@ -15,10 +15,10 @@ export const button = recipe({
       primary: {
         backgroundColor: vars.color.primary["500"],
         color: vars.color.primary["050"],
-        "&:hover": {
+        ":hover": {
           backgroundColor: vars.color.primary["400"],
         },
-        "&:active": {
+        ":active": {
           backgroundColor: vars.color.primary["600"],
         },
       },

@@ -12,7 +12,7 @@ test("Button renders", () => {
   // the snapshot without knowing what we are updating.
   expect(container.firstChild).toMatchInlineSnapshot(`
     <button
-      class="Button_Button__3eogct0 Button_variant_primary__3eogct1"
+      class="Button_button__3eogct0 Button_button_background_primary__3eogct1"
       type="button"
     >
       Click Me!
