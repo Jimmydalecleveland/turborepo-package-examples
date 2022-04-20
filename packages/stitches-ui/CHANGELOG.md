@@ -1,5 +1,12 @@
 # @jimmydc/stitches-ui
 
+## 0.3.0
+
+### Minor Changes
+
+- 3459cec: export SSR helper `getCssText` from stitches theme
+- ac1d4af: Export stitches theme and helper utils from theme
+
 ## 0.2.0
 
 ### Minor Changes
