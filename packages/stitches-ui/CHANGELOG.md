@@ -1,5 +1,11 @@
 # @jimmydc/stitches-ui
 
+## 0.3.0
+
+### Minor Changes
+
+- ac1d4af: Export stitches theme and helper utils from theme
+
 ## 0.2.0
 
 ### Minor Changes
