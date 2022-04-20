@@ -13,10 +13,7 @@ const Button = ({
   background = "primary",
 }: Props) => {
   return (
-    <button
-      type={type}
-      className={[styles.Button, styles.variant[background]].join(" ")}
-    >
+    <button type={type} className={styles.button({ background })}>
       {children}
     </button>
   );
