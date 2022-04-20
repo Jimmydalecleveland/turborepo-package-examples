@@ -64,6 +64,12 @@ export const [defaultTheme, vars] = createTheme({
     medium: "16px",
     large: "18px",
   },
+  radii: {
+    small: "4px",
+    medium: "8px",
+    large: "12px",
+    round: "9999px",
+  },
 });
 
 globalStyle("html, body", {

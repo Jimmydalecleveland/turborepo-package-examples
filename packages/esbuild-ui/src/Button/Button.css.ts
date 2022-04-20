@@ -1,27 +1,31 @@
 import { vars } from "../styles.css";
+import { recipe } from "@vanilla-extract/recipes";
 import { style, styleVariants } from "@vanilla-extract/css";
 
-export const Button = style({
-  vars: {
-    "--paragraph-dark-gray": vars.color.gray["900"],
+export const button = recipe({
+  base: {
+    padding: `${vars.spacing.small} ${vars.spacing.medium}`,
+    borderRadius: vars.radii.medium,
+    fontSize: vars.fontSize.large,
+    boxShadow: vars.shadows.medium,
   },
-  display: "flex",
-  padding: `${vars.spacing.small} ${vars.spacing.medium}`,
-  fontSize: vars.fontSize.large,
-  fontWeight: 600,
-  ":hover": {
-    color: vars.color.white,
-    backgroundColor: "var(--paragraph-dark-gray)",
-  },
-});
 
-export const variant = styleVariants({
-  primary: {
-    background: vars.color.primary["500"],
-    color: vars.color.primary["050"],
-  },
-  secondary: {
-    background: vars.color.secondary["300"],
-    color: vars.color.black,
+  variants: {
+    background: {
+      primary: {
+        backgroundColor: vars.color.primary["500"],
+        color: vars.color.primary["050"],
+        ":hover": {
+          backgroundColor: vars.color.primary["400"],
+        },
+        ":active": {
+          backgroundColor: vars.color.primary["600"],
+        },
+      },
+      secondary: {
+        background: vars.color.secondary["300"],
+        color: vars.color.black,
+      },
+    },
   },
 });
