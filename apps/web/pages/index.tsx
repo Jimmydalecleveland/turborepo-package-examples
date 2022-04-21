@@ -13,6 +13,7 @@ import {
   Text as StitchesText,
 } from "@jimmydc/stitches-ui";
 import { brandTheme, exampleStyle } from "../styles/theme.css";
+import { brandTheme as stitchesBrandTheme } from "../styles/stitches.config";
 
 export default function Web() {
   return (
@@ -29,6 +30,16 @@ export default function Web() {
             Some text from Stitches
           </StitchesText>
         </StitchesBox>
+
+        <div className={stitchesBrandTheme}>
+          <StitchesBox padding="medium" shadow="medium">
+            <StitchesSpacer size="medium" />
+            <StitchesButton>ESBuild + Stitches Custom Theme</StitchesButton>
+            <StitchesText size="large" weight="strong">
+              Some text from Stitches
+            </StitchesText>
+          </StitchesBox>
+        </div>
 
         <EsbuildBox padding="medium" shadow="medium">
           <p>Testing the Box</p>
