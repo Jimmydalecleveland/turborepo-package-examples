@@ -1,5 +1,17 @@
 # web
 
+## 0.3.0
+
+### Minor Changes
+
+- 0189ef7: Export Text component and update VE Button to Stitches styling and properties
+
+### Patch Changes
+
+- Updated dependencies [0189ef7]
+  - @jimmydc/esbuild-ui@0.11.0
+  - @jimmydc/stitches-ui@0.5.0
+
 ## 0.2.0
 
 ### Minor Changes
