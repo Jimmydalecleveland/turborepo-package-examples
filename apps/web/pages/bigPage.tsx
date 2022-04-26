@@ -5,7 +5,7 @@ export default function BigPage() {
     <div>
       <h1>Page with more JS loaded than the homepage</h1>
       <h2>At least... it should be</h2>
-      <Bootstrap size="large">
+      <Bootstrap size="small">
         <div className="container">
           <div className="card-deck mb-3 text-center">
             <div className="card mb-4 box-shadow">
