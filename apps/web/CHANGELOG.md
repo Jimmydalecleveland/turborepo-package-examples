@@ -1,5 +1,16 @@
 # web
 
+## 0.4.0
+
+### Minor Changes
+
+- f7c4214: add Stitches theming examples with SSR
+
+### Patch Changes
+
+- Updated dependencies [3c2e43b]
+  - @jimmydc/stitches-ui@0.7.0
+
 ## 0.3.0
 
 ### Minor Changes
