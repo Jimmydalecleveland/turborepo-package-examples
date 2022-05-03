@@ -1,5 +1,11 @@
 # @jimmydc/stitches-ui
 
+## 0.6.0
+
+### Minor Changes
+
+- 3c2e43b: convert esbuild package to rollup for full code-splitting support. A backup package was also created for the esbuild setup for reference.
+
 ## 0.5.0
 
 ### Minor Changes
