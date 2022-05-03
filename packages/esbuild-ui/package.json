@@ -12,7 +12,7 @@
   "scripts": {
     "compile": "tsc",
     "build": "node esbuild.js && npm run compile",
-    "dev": "node esbuild.js",
+    "dev": "NODE_ENV=development node esbuild.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",

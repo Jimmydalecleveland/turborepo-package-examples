@@ -13,6 +13,7 @@ build({
 	platform: "browser",
 	external: ['react'],
 	plugins: [vanillaExtractPlugin()],
+	watch: process.env.NODE_ENV === "development",
 })
 	.then(() => console.log("💡 Build Complete!"))
 	.catch(() => process.exit(1));
